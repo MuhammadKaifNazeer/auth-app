@@ -1,19 +1,18 @@
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
-
   try {
     const { name, email, password } = await req.json();
 
-    console.log("Name : ", name);
-    console.log("Email : ", email);
-    console.log("Password : ", password);
+    console.log("Name: ", name);
+    console.log("Email: ", email);
+    console.log("Password: ", password);
 
-    return NextResponse.json({ message: "User registered" }, { status: 201 });
+    return NextResponse.json({ message: "User registered." }, { status: 201 });
   } catch (error) {
     return NextResponse.json(
-        { message: "An error occured while registering the user" },
-        {status: 500}
-        );
+      { message: "An error occurred while registering the user." },
+      { status: 500 }
+    );
   }
 }
