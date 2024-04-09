@@ -1,8 +1,8 @@
 "use client";
 
-import { signIn } from "next-auth/react";
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
+import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 export default function LoginForm() {
@@ -49,7 +49,7 @@ export default function LoginForm() {
             type="password"
             placeholder="Password"
           />
-          <button className="bg-green-600 rounded text-white font-bold cursor-pointer px-6 py-2">
+          <button className="bg-green-600 text-white font-bold cursor-pointer px-6 py-2">
             Login
           </button>
           {error && (
