@@ -1,6 +1,5 @@
 # Full-Stack Authentication App
 
-**Screenshot**
 
 [![App Preview](preview.png)](preview.png) 
 
@@ -35,7 +34,7 @@ This full-stack authentication application, built with Next.js, MongoDB, NextAut
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repo URL>
+   git clone https://github.com/MuhammadKaifNazeer/full-stack-auth-app.git
 
 2. **Install Dependencies:**
 
