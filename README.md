@@ -1,7 +1,7 @@
 # Full-Stack Authentication App
 
-
-[![App Preview](preview)](public/preview.png) 
+![Full Stack Auth App](/public/preview.png)
+[![App Preview](preview)](public/preview.png)]
 
 **About**
 
